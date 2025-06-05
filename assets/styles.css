@@ -140,6 +140,10 @@
 
     }
     #testimonials img{
+      width: 220px;
+      margin: 0 auto;
+    }
+    #testimonials .bg-black{
       border: 1px solid var(--green);
       padding: 10px;
     }
