@@ -139,6 +139,10 @@
     background: linear-gradient(to top, #00ff0014, transparent);
 
     }
+    #testimonials img{
+      border: 1px solid var(--green);
+      padding: 10px;
+    }
     #how-it-works{
     background: linear-gradient(to bottom, #00ff0014, transparent);
 
