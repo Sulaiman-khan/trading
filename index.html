@@ -17,7 +17,7 @@
 </head>
 <body>
 
-    <nav class="w-full px-6 py-2 flex items-center justify-between">
+    <nav class="w-full px-6 py-2 flex items-center justify-between overflow-hidden z-10">
     <!-- Logo -->
     <div class="text-xl font-bold text-gray-800">
         <img alt="ChartWizards Logo" class="w-20 mb-0 z-0 duration-0 " src="image_2025-06-03_222929105-removebg-preview.png"/>
@@ -34,14 +34,18 @@
         </svg>
       </button>
     </div>
+    
 
     <!-- Navigation Links -->
     <div id="navLinks"
-         class="hidden md:flex space-x-6 text-gray-700 font-medium">
+         class="hidden md:flex space-x-6 text-gray-700 font-medium py-3 px-5 rounded-full">
       <a href="#mentor" class="green-text hover:text-white">Mentor</a>
       <a href="#earn" class="green-text hover:text-white">Earn as Member</a>
       <a href="#pricing" class="green-text hover:text-white">Pricing</a>
       <a href="#signup" class="green-text hover:text-white">Signup</a>
+    </div>
+    <div>
+      <a class="bg-lime-500 text-black font-semibold py-3 px-6 rounded-full glow-on-hover z-10" href="https://t.me/DPierre_Capital">Start Trading For Free</a>
     </div>
   </nav>
 
@@ -91,8 +95,7 @@
 <h3 class="text-5xl font-bold mb-4">
     WELCOME TO THE FUTURE OF  <span class="green-text"> TRADING</span>
 </h3>
-<p class="text-xl mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt, earum distinctio minus inventore explicabo pariatur dolor repellendus expedita hic neque aliquam molestias consequatur quod odio, vel asperiores ex cumque!</p>
-<p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt, earum distinctio minus inventore explicabo pariatur dolor repellendus expedita hic neque aliquam molestias consequatur quod odio, vel asperiores ex cumque!</p>
+<p class="text-xl mb-4">Whether you're an experienced trader or just getting started, our user-friendly platform lets you copy our trades for free—all from the convenience of your mobile phone.</p>
 </div>
 <div class="about-img ms-auto">
   <img src="./assets/trading.png" alt="">
@@ -107,17 +110,17 @@
  <!-- community Section -->
  <section class="py-16 px-4 w-full h-full " id="community">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-<div class="community-box p-8 rounded-lg fade-in text-center">
+<div class="community-box card-hover p-8 rounded-lg fade-in text-center">
     <i class="fa-solid fa-people-group text-6xl mb-4"></i>
 <h3 class="text-xl font-bold mb-4">Join the Community</h3>
 <p>Join our Telegram and you'll receive a welcome message with all the information you need to get started.</p>
 </div>
-<div class="community-box p-8 rounded-lg fade-in text-center">
+<div class="community-box card-hover p-8 rounded-lg fade-in text-center">
     <i class="fa-solid fa-people-group text-6xl mb-4"></i>
 <h3 class="text-xl font-bold mb-4">Copy & Paste Trades</h3>
 <p>Join our Telegram and you'll receive a welcome message with all the information you need to get started.</p>
 </div>
-<div class="community-box p-8 rounded-lg fade-in text-center">
+<div class="community-box card-hover p-8 rounded-lg fade-in text-center">
     <i class="fa-solid fa-people-group text-6xl mb-4"></i>
 <h3 class="text-xl font-bold mb-4">Trade and make Profit</h3>
 <p>Join our Telegram and you'll receive a welcome message with all the information you need to get started.</p>
@@ -144,10 +147,16 @@
  </div>
 <div class="about-text p-6 rounded-lg fade-in">
 <h3 class="text-5xl font-bold mb-4">
-    Meet <span class="green-text">Trade Master </span> – Your Mentor
+    Meet <span class="green-text">Daniel Pierre </span> – Your Mentor
 </h3>
-<p class="text-xl mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt, earum distinctio minus inventore explicabo pariatur dolor repellendus expedita hic neque aliquam molestias consequatur quod odio, vel asperiores ex cumque!</p>
-<p class="text-xl border-l ps-8 ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt, earum distinctio minus inventore explicabo pariatur dolor repellendus expedita hic neque aliquam molestias consequatur quod odio, vel asperiores ex cumque!</p>
+<p class="text-md mb-4">Daniel Pierre is an entrepreneur, visionary CEO, and the driving force behind FundedX. A full-time day trader and globally recognized expert in forex, Daniel has built a reputation for excellence through over six and a half years of hands-on experience in the markets. His journey has taken him around the world, where he has mastered the art and discipline of trading, turning knowledge into consistent results.
+</p>
+<p class="text-md mb-4">With a deep understanding of the financial markets and a passion for empowering others, Daniel founded SIGNALS—a platform designed to deliver real, actionable trading insights. As the CEO and lead mentor, he is committed to guiding others on their path to financial independence.
+</p>
+<p class="text-md border-l ps-8 ms-5">"I've seen the transformative power of successful trading in people's lives. It's not just about the profits—it's about freedom, confidence, and taking control of your future. I'm here to help you unlock that potential."
+</p>
+<p class="text-md mb-4">Daniel is more than just a leader—he’s your partner on the journey. As the ambassador and product champion of SIGNALS, he's here to deliver your signal to success.
+</p>
 </div>
 
 </div>
@@ -423,7 +432,7 @@
  <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="bg-black p-2 rounded-lg">
+        <div class="bg-black p-2 rounded-lg card-hover">
 <img src="./assets/img1.jpg" alt="">
 <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
 <p class="italic text-lg mb-2">"Best decision for my trading journey! The 24/7 support is a game-changer."</p>
@@ -431,7 +440,7 @@
 </div>
       </div>
       <div class="swiper-slide">
-         <div class="bg-black p-2 rounded-lg">
+         <div class="bg-black p-2 rounded-lg card-hover">
 <img src="./assets/img2.jpg" alt="">
 <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
 <p class="italic text-lg mb-2">"Best decision for my trading journey! The 24/7 support is a game-changer."</p>
@@ -439,7 +448,7 @@
 </div>
       </div>
       <div class="swiper-slide">
-         <div class="bg-black p-2 rounded-lg">
+         <div class="bg-black p-2 rounded-lg card-hover">
 <img src="./assets/img3.jpg" alt="">
 <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
 <p class="italic text-lg mb-2">"Best decision for my trading journey! The 24/7 support is a game-changer."</p>
@@ -447,7 +456,7 @@
 </div>
       </div>
       <div class="swiper-slide">
-        <div class="bg-black p-2 rounded-lg">
+        <div class="bg-black p-2 rounded-lg card-hover">
 <img src="./assets/img1.jpg" alt="">
 <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
 <p class="italic text-lg mb-2">"Best decision for my trading journey! The 24/7 support is a game-changer."</p>
@@ -455,7 +464,7 @@
 </div>
       </div>
       <div class="swiper-slide">
-         <div class="bg-black p-2 rounded-lg">
+         <div class="bg-black p-2 rounded-lg card-hover">
 <img src="./assets/img2.jpg" alt="">
 <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
 <p class="italic text-lg mb-2">"Best decision for my trading journey! The 24/7 support is a game-changer."</p>
@@ -463,7 +472,7 @@
 </div>
       </div>
       <div class="swiper-slide">
-         <div class="bg-black p-2 rounded-lg">
+         <div class="bg-black p-2 rounded-lg card-hover">
 <img src="./assets/img3.jpg" alt="">
 <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
 <p class="italic text-lg mb-2">"Best decision for my trading journey! The 24/7 support is a game-changer."</p>
@@ -500,7 +509,7 @@
              <tr>
                <td class="px-6 py-4">3. Takes less than 1 hour a day</td>
                <td class="px-6 py-4 text-center"><i class="fas fa-check green-text"></i></td>
-               <td class="px-6 py-4 text-center"><i class="fas fa-check green-text"></i></td>
+               <td class="px-6 py-4 text-center"><i class="fas fa-times text-red-500"></i></td>
              </tr>
              <tr>
                <td class="px-6 py-4">4. Access to a global community of traders</td>
@@ -525,7 +534,7 @@
                 <p class="text-gray-400 max-w-2xl mx-auto">Getting started with our premium crypto signals is quick and easy. Follow these three simple steps.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="md:flex text-center bg-black p-8 works-box">
+                <div class="md:flex text-center bg-black p-8 works-box card-hover">
                 
                     <div>
                         <div class="mb-4 w-16 h-16   rounded-full bg-black border border-lime-500 flex items-center justify-center mx-auto ">
@@ -535,7 +544,7 @@
                         <p>Create your account in minutes. Choose your preferred membership plan and complete the secure checkout process.</p>
                     </div>
                 </div>
-                <div class="md:flex text-center bg-black p-8 works-box ">
+                <div class="md:flex text-center bg-black p-8 works-box card-hover">
                     
                     <div>
                          <div class="mb-4 w-16 h-16   rounded-full bg-black border border-lime-500 flex items-center justify-center mx-auto">
@@ -545,7 +554,7 @@
                         <p>Get real-time alerts via Telegram, Discord, or email depending on your preference. Each signal includes detailed analysis.</p>
                     </div>
                 </div>
-                <div class="md:flex text-center bg-black p-8 works-box">
+                <div class="md:flex text-center bg-black p-8 works-box card-hover">
                     
                     <div>
                         <div class="mb-4 w-16 h-16   rounded-full bg-black border border-lime-500 flex items-center justify-center mx-auto ">
@@ -779,7 +788,7 @@
     Your browser does not support the video tag.
   </video>
   <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
-    <div class="star-rating text-4xl mb-2">⭐⭐⭐⭐⭐</div>
+    <div class="star-rating text-2xl mb-2">⭐⭐⭐⭐⭐</div>
     <h2 class="text-5xl font-bold mt-2 mb-4">Trusted by <span class="green-text"> Traders Worldwide </span></h2>
     <p>100% free access to all our tools and insights. <br>
 Don't let another day pass by without taking control of your financial future.</p>
@@ -797,9 +806,6 @@ Don't let another day pass by without taking control of your financial future.</
                 <a href="https://t.me/DPierre_Capital" class="bg-lime-500 hover:bg-lime-600 text-black font-bold py-3 px-8 rounded-lg glow transition duration-300">
                     Join Now
                 </a>
-                <button onclick="toggleModal('demoModal')" class="bg-transparent hover:bg-gray-800 text-white font-bold py-3 px-8 border border-lime-500 rounded-lg transition duration-300">
-                    View Free Demo
-                </button>
             </div>
         </div>
     </section>

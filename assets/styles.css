@@ -133,6 +133,20 @@
     filter: blur(150px);
     opacity: 0.3;
     transform: translate(-50%, 0%);
+    z-index: -1;
+
+    }
+    #navLinks{
+      border: 1px solid var(--green);
+    background: #00ff0014;
+    }
+    #faqs{
+    background: linear-gradient(to bottom, #00ff0014, transparent);
+    
+  }
+  #faqs .rounded-lg{
+    border: 1px solid var(--green);
+    background: #00ff0014;
 
     }
     #testimonials{
