@@ -8,9 +8,27 @@
     }
     :root{
       --green: #9dff32;
+      --black:#181d21;
+    }
+    .green-btn{
+      background-color: var(--green);
     }
     .green-text{
       color: var(--green);
+    }
+    footer{
+      background-color: var(--green);
+      color: var(--black);
+    }
+    #video-sec{
+      height: 100vh;
+      overflow: hidden;
+    }
+    #video-sec video{
+      height: 100vh;
+    }
+    img{
+      border-radius: 20px;
     }
     .marquee-wrapper {
       overflow: hidden;
@@ -172,7 +190,7 @@
     filter: blur(50px);
     opacity: 0.5;
     transform: translate(-50%, -50%);
-    z-index: 9;
+    z-index: -1;
 
     }
 #table tr, th{
